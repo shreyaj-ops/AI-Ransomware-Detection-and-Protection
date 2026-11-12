@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Editor settings
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Dataset
+Ransomware_Data.csv
+
+# Test files
+test_file.txt
+test_file.enc
+test_file.txt.enc
+decrypted_test_file.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+# Encrypted test files
+*.enc
+
+# Generated test datasets
+benign_test_samples.csv
+unseen_test_samples.csv
